@@ -574,13 +574,36 @@ footer{
 
 }
 
+.footerShadow{
+
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 250px;
+}
+
 .footerContainer{
 
     background-image: url("./assets/bg_footer.jpg") ;
     background-position: center;
     background-repeat: no-repeat;
-    /* background-size: top left; */
+
     width: 70%;
     height: 150px;
+
+}
+
+.footerLogo{
+
+
+    border: 1px solid red;
+    width: 100%;
+
+}
+
+
+.footerLogo img{
+
+    position: absolute;
+    left: 20px;
+    top: 20px;
 
 }
